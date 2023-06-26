@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.rocket-box {
+  /* display: none; */
+  width: 33.3%;
+}
+.wikipedia {
+  text-decoration: none !important;
+}
+.perpage,
+.sortby,
+.sortorder {
+  display: inline-block;
+}
+.sort-div {
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 3rem 0;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.sortings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
